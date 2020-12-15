@@ -4,23 +4,26 @@ import ExternalLayout from '../components/ExternalLayout';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-const teamMemberImgs: Map<String, any> = (function() {
-  const r = require.context('../img/team/');
-  // initial value is a map
-  // reduces array by adding each looked up key to the map
-  // for more help check index.d.ts of @types/webpack-env
-  return r.keys().reduce((map, key) => map.set(key, r(key)), new Map());
-})();
+import GovindPimpale from '../img/team/GovindPimpale.jpg';
+import RichardLe from '../img/team/RichardLe.jpg';
+import GaneshPimpale from '../img/team/GaneshPimpale.jpg';
+import MarekPinto from '../img/team/MarekPinto.jpg';
+import HenryChen from '../img/team/HenryChen.jpg';
+import EmilyPark from '../img/team/EmilyPark.jpg';
+import JoshuaSah from '../img/team/JoshuaSah.jpg';
+import JordanNguyen from '../img/team/JordanNguyen.jpg';
+import JasonLy from '../img/team/JasonLy.jpg';
 
 type TeamMemberProps = {
-  name: String,
-  role: String,
+  name: string,
+  role: string,
+  img: string,
 };
 
 function TeamMember(props: TeamMemberProps) {
   return (
     <Col xs style={{ textAlign: "center" as const }}>
-      <img style={{ borderRadius: '50%' }} src={teamMemberImgs.get(`./${props.name.split(' ').join('')}.jpg`)} alt='' />
+      <img style={{ borderRadius: '50%' }} src={props.img} alt='' />
       <h5>{props.name}</h5>
       <p>{props.role}</p>
     </Col>
@@ -56,19 +59,19 @@ function About() {
       <section>
         <Container>
           <Row>
-            <TeamMember name='Govind Pimpale' role='Founding Technology Officer' />
-            <TeamMember name='Richard Le' role='Founding Financial Officer' />
-            <TeamMember name='Ganesh Pimpale' role='Founding Engineer' />
+            <TeamMember img={GovindPimpale} name='Govind Pimpale' role='Founding Technology Officer' />
+            <TeamMember img={RichardLe} name='Richard Le' role='Founding Financial Officer' />
+            <TeamMember img={GaneshPimpale} name='Ganesh Pimpale' role='Founding Engineer' />
           </Row>
           <Row>
-            <TeamMember name='Marek Pinto' role='Founding Engineer' />
-            <TeamMember name='Henry Chen' role='Software Developer' />
-            <TeamMember name='Emily Park' role='Hardware Manufacturing' />
+            <TeamMember img={MarekPinto} name='Marek Pinto' role='Founding Engineer' />
+            <TeamMember img={HenryChen} name='Henry Chen' role='Software Developer' />
+            <TeamMember img={EmilyPark} name='Emily Park' role='Hardware Manufacturing' />
           </Row>
           <Row>
-            <TeamMember name='Joshua Sah' role='Hardware Installation' />
-            <TeamMember name='Jordan Nguyen' role='Hardware Installation' />
-            <TeamMember name='Jason Ly' role='Hardware Installation' />
+            <TeamMember img={JoshuaSah} name='Joshua Sah' role='Hardware Installation' />
+            <TeamMember img={JordanNguyen} name='Jordan Nguyen' role='Hardware Installation' />
+            <TeamMember img={JasonLy} name='Jason Ly' role='Hardware Installation' />
           </Row>
         </Container>
       </section>
