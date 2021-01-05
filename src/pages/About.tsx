@@ -53,6 +53,11 @@ function About() {
               to the localized needs of all clients. As we move forward, Innexgo LLC aims to bring our technology to
               other academic institutions across many communities in the United States.
             </p>
+            <p>
+              Furthermore, Innexgo LLC is expanding operations to assist schools and school districts beyond attendance.
+              Currently, we are innovating our new platform for exam creation, Innexgo Exams, on top of continuing to improve
+              our flagship attendance services, Innexgo Hours. 
+            </p>
           </div>
         </Container>
       </section>
@@ -69,12 +74,14 @@ function About() {
             <TeamMember img={EmilyPark} name='Emily Park' role='Hardware Manufacturing' />
           </Row>
           <Row>
-            <TeamMember img={JoshuaSah} name='Joshua Sah' role='Hardware Installation' />
-            <TeamMember img={JordanNguyen} name='Jordan Nguyen' role='Hardware Installation' />
-            <TeamMember img={JasonLy} name='Jason Ly' role='Hardware Installation' />
+            <TeamMember img={JoshuaSah} name='Joshua Sah' role='Software Developer' />
+            <TeamMember img={JordanNguyen} name='Jordan Nguyen' role='UI/UX Developer' />
+            <TeamMember img={JasonLy} name='Jason Ly' role='Database Developer' />
           </Row>
         </Container>
       </section>
+      <br />
+      <br />
     </ExternalLayout >
   )
 }

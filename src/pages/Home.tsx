@@ -20,6 +20,12 @@ function Home() {
     justifyContent: "center"
   };
 
+  const heroStyle = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+  };
+
   const iconStyle = {
     width: "120px",
     height: "120px",
@@ -57,7 +63,7 @@ function Home() {
   return (
     <ExternalLayout fixed={true} transparentTop={true}>
       <Jumbotron fluid style={jumboStyle}>
-        <Container>
+        <Container style={heroStyle}>
           <h1> Academics, Achievement, Attendance first. </h1>
         </Container>
       </Jumbotron>
