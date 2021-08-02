@@ -1,10 +1,10 @@
 import React from 'react';
 import { Media, Jumbotron, Container, Row, Card, CardDeck } from 'react-bootstrap';
-import { VerifiedUser, BarChart, ThumbUp} from '@material-ui/icons'
+import { VerifiedUser, BarChart, ThumbUp } from '@material-ui/icons'
 
 import ExternalLayout from "../components/ExternalLayout";
 
-import heroBg from "../img/homepage-bg.png"
+import heroBg from "../img/homepage-bg.jpg"
 
 function Home() {
   const jumboStyle = {
