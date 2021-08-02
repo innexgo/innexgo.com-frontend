@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfd10752.chunk.css",
-    "main.js": "/static/js/main.bdec8219.chunk.js",
-    "main.js.map": "/static/js/main.bdec8219.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
-    "static/js/2.6d5112ac.chunk.js": "/static/js/2.6d5112ac.chunk.js",
-    "static/js/2.6d5112ac.chunk.js.map": "/static/js/2.6d5112ac.chunk.js.map",
+    "main.css": "/static/css/main.05cbbccc.chunk.css",
+    "main.js": "/static/js/main.f4b0ee51.chunk.js",
+    "main.js.map": "/static/js/main.f4b0ee51.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b89de3f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b89de3f.js.map",
+    "static/js/2.6435b0df.chunk.js": "/static/js/2.6435b0df.chunk.js",
+    "static/js/2.6435b0df.chunk.js.map": "/static/js/2.6435b0df.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bfd10752.chunk.css.map": "/static/css/main.bfd10752.chunk.css.map",
-    "static/js/2.6d5112ac.chunk.js.LICENSE.txt": "/static/js/2.6d5112ac.chunk.js.LICENSE.txt",
+    "static/css/main.05cbbccc.chunk.css.map": "/static/css/main.05cbbccc.chunk.css.map",
+    "static/js/2.6435b0df.chunk.js.LICENSE.txt": "/static/js/2.6435b0df.chunk.js.LICENSE.txt",
     "static/media/GaneshPimpale.440af18e.jpg": "/static/media/GaneshPimpale.440af18e.jpg",
     "static/media/GovindPimpale.74890bce.jpg": "/static/media/GovindPimpale.74890bce.jpg",
     "static/media/HenryChen.89a2cd20.jpg": "/static/media/HenryChen.89a2cd20.jpg",
@@ -17,13 +17,13 @@
     "static/media/JoshuaSah.f0b76ef5.jpg": "/static/media/JoshuaSah.f0b76ef5.jpg",
     "static/media/MarekPinto.57f89e98.jpg": "/static/media/MarekPinto.57f89e98.jpg",
     "static/media/RichardLe.87389159.jpg": "/static/media/RichardLe.87389159.jpg",
-    "static/media/homepage-bg.600e94f7.png": "/static/media/homepage-bg.600e94f7.png",
-    "static/media/dashboard.scss": "/static/media/ubuntu-latin-700italic.7759495a.woff"
+    "static/media/homepage-bg.af6b05f1.jpg": "/static/media/homepage-bg.af6b05f1.jpg",
+    "static/media/external.scss": "/static/media/ubuntu-latin-700italic.7759495a.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d25ba2e.js",
-    "static/js/2.6d5112ac.chunk.js",
-    "static/css/main.bfd10752.chunk.css",
-    "static/js/main.bdec8219.chunk.js"
+    "static/js/runtime-main.9b89de3f.js",
+    "static/js/2.6435b0df.chunk.js",
+    "static/css/main.05cbbccc.chunk.css",
+    "static/js/main.f4b0ee51.chunk.js"
   ]
 }
