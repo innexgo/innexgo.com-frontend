@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.c359f80d.chunk.css",
-    "main.js": "/static/js/main.4c265d6e.chunk.js",
-    "main.js.map": "/static/js/main.4c265d6e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9b89de3f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9b89de3f.js.map",
-    "static/js/2.10f39b77.chunk.js": "/static/js/2.10f39b77.chunk.js",
-    "static/js/2.10f39b77.chunk.js.map": "/static/js/2.10f39b77.chunk.js.map",
+    "main.css": "/static/css/main.40908d2e.chunk.css",
+    "main.js": "/static/js/main.18f70208.chunk.js",
+    "main.js.map": "/static/js/main.18f70208.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9040f5fb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9040f5fb.js.map",
+    "static/js/2.bf2523c3.chunk.js": "/static/js/2.bf2523c3.chunk.js",
+    "static/js/2.bf2523c3.chunk.js.map": "/static/js/2.bf2523c3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c359f80d.chunk.css.map": "/static/css/main.c359f80d.chunk.css.map",
-    "static/js/2.10f39b77.chunk.js.LICENSE.txt": "/static/js/2.10f39b77.chunk.js.LICENSE.txt",
+    "static/css/main.40908d2e.chunk.css.map": "/static/css/main.40908d2e.chunk.css.map",
+    "static/js/2.bf2523c3.chunk.js.LICENSE.txt": "/static/js/2.bf2523c3.chunk.js.LICENSE.txt",
     "static/media/GaneshPimpale.440af18e.jpg": "/static/media/GaneshPimpale.440af18e.jpg",
     "static/media/GovindPimpale.74890bce.jpg": "/static/media/GovindPimpale.74890bce.jpg",
     "static/media/HenryChen.89a2cd20.jpg": "/static/media/HenryChen.89a2cd20.jpg",
-    "static/media/JordanNguyen.42c07bab.jpg": "/static/media/JordanNguyen.42c07bab.jpg",
-    "static/media/JoshuaSah.f0b76ef5.jpg": "/static/media/JoshuaSah.f0b76ef5.jpg",
+    "static/media/MaheswariBajji.e568b6dd.jpg": "/static/media/MaheswariBajji.e568b6dd.jpg",
     "static/media/MarekPinto.57f89e98.jpg": "/static/media/MarekPinto.57f89e98.jpg",
+    "static/media/NavneethSuresh.d57a8a33.jpg": "/static/media/NavneethSuresh.d57a8a33.jpg",
     "static/media/RichardLe.87389159.jpg": "/static/media/RichardLe.87389159.jpg",
     "static/media/homepage-bg.af6b05f1.jpg": "/static/media/homepage-bg.af6b05f1.jpg",
     "static/media/external.scss": "/static/media/ubuntu-latin-700italic.7759495a.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b89de3f.js",
-    "static/js/2.10f39b77.chunk.js",
-    "static/css/main.c359f80d.chunk.css",
-    "static/js/main.4c265d6e.chunk.js"
+    "static/js/runtime-main.9040f5fb.js",
+    "static/js/2.bf2523c3.chunk.js",
+    "static/css/main.40908d2e.chunk.css",
+    "static/js/main.18f70208.chunk.js"
   ]
 }

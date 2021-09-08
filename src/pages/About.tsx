@@ -13,6 +13,8 @@ import EmilyPark from '../img/team/EmilyPark.jpg';
 import JoshuaSah from '../img/team/JoshuaSah.jpg';
 import JordanNguyen from '../img/team/JordanNguyen.jpg';
 import JasonLy from '../img/team/JasonLy.jpg';
+import MaheswariBajji from '../img/team/MaheswariBajji.jpg';
+import NavneethSuresh from '../img/team/NavneethSuresh.jpg';
 
 type TeamMemberProps = {
   name: string,
@@ -74,8 +76,8 @@ function About() {
             <TeamMember img={EmilyPark} name='Emily Park' role='Hardware Manufacturing' />
           </Row>
           <Row>
-            <TeamMember img={JoshuaSah} name='Joshua Sah' role='Software Developer' />
-            <TeamMember img={JordanNguyen} name='Jordan Nguyen' role='UI/UX Developer' />
+            <TeamMember img={MaheswariBajji} name='Maheswari Bajji' role='Software Developer' />
+            <TeamMember img={NavneethSuresh} name='Navneeth Suresh' role='UI/UX Developer' />
             <TeamMember img={JasonLy} name='Jason Ly' role='Database Developer' />
           </Row>
         </Container>
