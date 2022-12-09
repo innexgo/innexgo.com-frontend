@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -9,12 +9,12 @@ import Error from './pages/Error';
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/terms_of_service" component={TermsOfService} />
-        <Route path="/" component={Error} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/terms_of_service" element={<TermsOfService />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </BrowserRouter>
   );
 }

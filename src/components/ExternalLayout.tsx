@@ -9,6 +9,7 @@ import ExternalHeader from './ExternalHeader';
 interface ExternalLayoutProps {
     fixed: boolean;
     transparentTop: boolean;
+    children: React.ReactChild | React.ReactChild[]
 }
 
 class ExternalLayout extends React.Component<ExternalLayoutProps> {
