@@ -57,13 +57,9 @@ function About() {
             <p>
               Furthermore, Innexgo LLC is expanding operations to assist schools and school districts beyond attendance.
               Currently, we are innovating our new platform for exam creation, Innexgo Exams, on top of continuing to improve
-              our flagship attendance services, Innexgo Hours. 
+              our flagship attendance services, Innexgo Hours.
             </p>
           </div>
-        </Container>
-      </section>
-      <section>
-        <Container>
           <Row>
             <TeamMember img={GovindPimpale} name='Govind Pimpale' role='Founding Technology Officer' />
             <TeamMember img={RichardLe} name='Richard Le' role='Founding Financial Officer' />
