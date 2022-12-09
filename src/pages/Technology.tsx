@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
 import ExternalLayout from '../components/ExternalLayout';
 
 import CaseCad from '../img/case_cad.png';
 import PcbCad from '../img/pcb_cad.png';
 import PCBBackIrl from '../img/pcb_back_irl.jpg';
+import PCBFrontIrl from '../img/pcb_front_irl.jpg';
 import PartialAssemblyFrontIrl from '../img/partialassembly_front_irl.jpg';
 
 function Technology() {
@@ -31,7 +31,7 @@ function Technology() {
             </figure>
             <h5>Scanner Requirements</h5>
             The scanner shown above has several jobs to play in order to be useful. It must:
-            <ul>
+            <ol>
               <li>Scan students' cards
                 <ul>
                   <li>
@@ -68,7 +68,7 @@ function Technology() {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ol>
             <p>
               Simultaneously fulfilling all of these tasks while keeping complexity reasonably low is a challenge.
               But in general, designing an IOT devices like these is a process filled with making tradeoffs.
@@ -79,7 +79,7 @@ function Technology() {
             </p>
             <ul>
               <li>
-                 <h6>PCB Design</h6>
+                <h6>PCB Design</h6>
               </li>
               <li>
                 <h6>ESP32 Microcontroller</h6>
@@ -92,18 +92,58 @@ function Technology() {
               We'll go through each of these in more depth below.
             </p>
             <h4>PCB design</h4>
+            <p>
+              Note: our PCB is open source!
+              Check it out <a href="https://github.com/innexgo/PCB">on our github</a>.
+            </p>
+            <p>
+              Here's what the front and back of our PCB looks like:
+            </p>
+            <figure className="text-center my-3">
+              <div className='d-flex justify-between my-3'>
+                <img
+                  src={PCBFrontIrl}
+                  style={{ width: "20rem" }}
+                  className="border border-dark mx-auto d-block"
+                  alt="Front of the scanner PCB"
+                />
+                <img
+                  src={PCBBackIrl}
+                  style={{ width: "20rem" }}
+                  className="border border-dark mx-auto d-block"
+                  alt="Back of the scanner PCB"
+                />
+              </div>
+              <figcaption>Front and back of the scanner PCB</figcaption>
+              <figcaption><small>Source: Own Work</small></figcaption>
+            </figure>
+            <p>
+              We use RFID technology to accomplish requirement 1, the ability to quickly scan in students.
+              Many student ID cards have RFID chips already built in, and if not, there are cheap stickers you can attach to the cards containing the RFID chip.
+            </p>
+            <p>
+              RFID is a passively powered technology.
+              That is, the RFID chips on the student's cards don't use any power until they come close to the scanner.
+              The coil you see on the top of the PCB acts like an antenna to wirelessly transfer power into the chip.
+              That same coil is also responsible for reading back the response from the RFID chip once it has been powered.
+            </p>
+            <p>
+              For our device, we integrated the RFID coil into the same PCB as everything else.
+              This makes our device simpler to assemble and less likely to break. 
+              The coil is driven by the MFRC522 chip, which is visible on the center-left of the PCB, betwen the two rows of holes.
+            </p>
+            <p>
+              On the right side of the chip we have the two diagnostic lights 
+            </p>
 
 
-                    We use RFID technology to accomplish this.
-                    Many student ID stickers have RFID chips already built in, and if not, there are cheap stickers you can attach to the cards containing the RFID chip.
-
-
-            <figure className="text-center my-3"> <img
-              src={CaseCad}
-              style={{ width: "30rem" }}
-              className="border border-dark mx-auto d-block"
-              alt="Partially Assembled Scanner"
-            />
+            <figure className="text-center my-3">
+              <img
+                src={CaseCad}
+                style={{ width: "30rem" }}
+                className="border border-dark mx-auto d-block"
+                alt="Partially Assembled Scanner"
+              />
               <figcaption>Partially assembled scanner showing custom PCB.</figcaption>
               <figcaption><small>Source: Own Work</small></figcaption>
             </figure>
