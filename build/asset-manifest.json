@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7085ec1.css",
-    "main.js": "/static/js/main.4a38ff49.js",
+    "main.css": "/static/css/main.d1f8dc7f.css",
+    "main.js": "/static/js/main.1b1c5161.js",
+    "static/media/partialassembly_front_irl.jpg": "/static/media/partialassembly_front_irl.80b8826779da9895b859.jpg",
     "static/media/homepage-bg.jpg": "/static/media/homepage-bg.af6b05f1035bd1911bac.jpg",
+    "static/media/pcb_front_irl.jpg": "/static/media/pcb_front_irl.2eb765f5fe8343d4e854.jpg",
+    "static/media/pcb_back_irl.jpg": "/static/media/pcb_back_irl.b5ad3af7d7c67d82f879.jpg",
+    "static/media/case_cad.png": "/static/media/case_cad.b26e9ffcddd6e6fbb045.png",
     "static/media/NavneethSuresh.jpg": "/static/media/NavneethSuresh.d57a8a33a8a4cb22d65d.jpg",
     "static/media/MaheswariBajji.jpg": "/static/media/MaheswariBajji.e568b6dd1957844c8b24.jpg",
     "static/media/ubuntu-latin-300.woff": "/static/media/ubuntu-latin-300.8a517f2712bba8249913.woff",
@@ -27,11 +31,11 @@
     "static/media/GovindPimpale.jpg": "/static/media/GovindPimpale.74890bcef0dcfd37c978.jpg",
     "static/media/GaneshPimpale.jpg": "/static/media/GaneshPimpale.440af18ebb7f7a6e66c7.jpg",
     "index.html": "/index.html",
-    "main.a7085ec1.css.map": "/static/css/main.a7085ec1.css.map",
-    "main.4a38ff49.js.map": "/static/js/main.4a38ff49.js.map"
+    "main.d1f8dc7f.css.map": "/static/css/main.d1f8dc7f.css.map",
+    "main.1b1c5161.js.map": "/static/js/main.1b1c5161.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7085ec1.css",
-    "static/js/main.4a38ff49.js"
+    "static/css/main.d1f8dc7f.css",
+    "static/js/main.1b1c5161.js"
   ]
 }
