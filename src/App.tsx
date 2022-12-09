@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import TermsOfService from './pages/TermsOfService';
-import Error from './pages/Error';
+import Error404  from './pages/Error404';
+import Technology from './pages/Technology';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/technology" element={<Technology />} />
         <Route path="/terms_of_service" element={<TermsOfService />} />
-        <Route path="*" element={<Error />} />
+        <Route path="*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
   );

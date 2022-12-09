@@ -77,6 +77,7 @@ class ExternalHeader extends React.Component<ExternalHeaderProps, ExternalHeader
               {/*Right Aligned*/}
               <div className="navbar-nav ms-auto">
                 <Link style={linkStyle} className="nav-item nav-link font-weight-bold" to="/about"><strong>About</strong></Link>
+                <Link style={linkStyle} className="nav-item nav-link font-weight-bold" to="/technology"><strong>Technology</strong></Link>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import ExternalLayout from '../components/ExternalLayout';
-
 import { Container, Row, Col } from 'react-bootstrap';
 
 import GovindPimpale from '../img/team/GovindPimpale.jpg';
