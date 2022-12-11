@@ -74,7 +74,7 @@ function Technology() {
             When designing, you'll have to choose between efficiency, reliability, cost, and a whole host of other important attributes.
           </p>
           <p>
-            Here are some of the key design areas where we made that we belive make the Innexgo system more cost effective, while still keeping it reliable and user friendly.
+            Here are some of the key design areas where we made choices that we believe make the Innexgo system more cost effective, while still keeping it reliable and user friendly.
           </p>
           <ul>
             <li>
