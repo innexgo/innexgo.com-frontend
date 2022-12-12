@@ -99,7 +99,7 @@ function Home() {
             <Card.Title> Data Collection  </Card.Title>
             <Card.Text>
               The process begins with our RFID technology. All classrooms will have a scanner that captures scan-in/out data
-              from students whenever an ID card is detected
+              from students whenever an ID card is detected.
             </Card.Text>
           </Card.Body>
         </Card>
